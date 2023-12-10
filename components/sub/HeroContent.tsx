@@ -7,7 +7,7 @@ import {
   slideInFromRight,
   slideInFromTop,
 } from "@/utils/motion";
-import { SparklesIcon } from "@heroicons/react/24/solid";
+// import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 
 const HeroContent = () => {
@@ -18,15 +18,15 @@ const HeroContent = () => {
       className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
-        {/* <motion.div
+        <motion.div
           variants={slideInFromTop}
-          className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
+          // className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
         >
-          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px]">
+          {/* <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" /> */}
+          {/* <h1 className="Welcome-text text-[13px]">
             Fullstack Developer Portfolio
-          </h1>
-        </motion.div> */}
+          </h1> */}
+        </motion.div>
 
         <motion.div
           variants={slideInFromLeft(0.5)}
@@ -52,7 +52,7 @@ const HeroContent = () => {
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="downloadCV py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
           Download CV
         </motion.a>

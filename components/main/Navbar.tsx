@@ -1,10 +1,33 @@
 // import { Socials } from "@/constants";
 // import Image from "next/image";
-// import React from "react";
+import React from "react";
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'boxicons/css/boxicons.min.css';
 
 const Navbar = () => {
   return (
-    <div>not using</div>
+    <>
+    {/* <!-- ======= Mobile nav toggle button ======= --> */}
+    <button type="button" className="mobile-nav-toggle d-xl-none"><i className="bi bi-list mobile-nav-toggle"></i></button>
+    <i className="bi bi-list mobile-nav-toggle d-lg-none"></i>
+    {/* <!-- ======= Header ======= --> */}
+    <header id="header" className="d-flex flex-column justify-content-center">
+
+      <nav id="navbar" className="navbar nav-menu">
+        <ul>
+          <li><a href="#about-me" className="nav-link scrollto active"><i className="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" className="nav-link scrollto"><i className="bx bx-user"></i> <span>About</span></a></li>
+          {/* <li><a href="#resume" className="nav-link scrollto"><i className="bx bx-file-blank"></i> <span>Resume</span></a></li> */}
+          <li><a href="#projects" className="nav-link scrollto"><i className="bx bx-book-content"></i> <span>Projects</span></a></li>
+          {/* <li><a href="#services" className="nav-link scrollto"><i className="bx bx-server"></i> <span>Services</span></a></li> */}
+          <li><a href="#contact" className="nav-link scrollto"><i className="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav>
+      {/* <!-- .nav-menu --> */}
+
+    </header>
+    {/* <!-- End Header --> */}
+    </>
     // <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
     //   <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
     //     <a
