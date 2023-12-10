@@ -15,7 +15,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+      className="flex flex-row items-center justify-center px-40 mt-40 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
@@ -47,8 +47,17 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          <div>
+            Versatile Full Stack Software Engineer proficient in JavaScript, Ruby, and SQL technologies. My expertise spans React, Redux, Rails, HTML, CSS, Canvas API, Jbuilder, PostgreSQL, and AWS.
+          </div>
+          <div>
+            As a fast learner with a positive attitude, I thrive on challenges, constantly expanding my programming knowledge. I embrace new technologies and maintain a positive outlook even in high-pressure situations.
+          </div>
+          <div>
+            Let&apos;s innovate and create together!
+          </div>
+          {/* I&apos;m a Full Stack Software Engineer with experience in Website,
+          Mobile, and Software development. Check out my projects and skills. */}
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
