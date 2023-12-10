@@ -8,8 +8,8 @@ import StarsCanvas from "@/components/main/StarBackground";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Space Portfolio",
-  description: "This is my portfolio",
+  title: "Claudia Aziz",
+  description: "Personal Portfolio",
 };
 
 export default function RootLayout({
